@@ -1,0 +1,122 @@
+#gestor {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contenedor > div {
+  /* Selector hijos directos (primer nivel) */
+  width: 300px;
+  height: auto;
+  min-height: 500px;
+  padding: 0;
+  background-color: #f3f3f3;
+  margin-right: 0.5%;
+}
+
+.botones {
+  text-align: right;
+}
+
+.tarea {
+  background-color: #fff;
+  width: 95%;
+  margin: 0.6rem;
+  word-wrap: break-word;
+  padding: 0.5rem 1rem;
+  box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px,
+    rgba(15, 15, 15, 0.1) 0px 2px 4px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.acabada {
+  background-color: #d0d0d0;
+  word-wrap: break-word;
+  width: 95%;
+  margin: 0.6rem;
+  padding: 0.5rem 1rem;
+}
+
+#mostrar {
+  text-align: right;
+}
+
+.oculto {
+  display: none;
+}
+
+/*PRUEBAS*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor {
+  display: flex;
+  position: relative;
+}
+
+#contenedor h1 {
+  background-color: #343434;
+  color: #f3f3f3;
+  margin: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.del,
+.end,
+.add,
+.sho {
+  border: 1px #343434 solid;
+  display: inline-block;
+  background-color: #343434;
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  width: 5rem;
+}
+
+#tareas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tareas * {
+  margin: 0.2rem;
+}
+
+textarea {
+  width: 30rem;
+  resize: none;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: red;
+}
+
+/* Background verde para las acabadas */
+
+.acabadaVerde {
+  background-color: green;
+  word-wrap: break-word;
+  width: 95%;
+  margin: 0.6rem;
+  padding: 0.5rem 1rem;
+}

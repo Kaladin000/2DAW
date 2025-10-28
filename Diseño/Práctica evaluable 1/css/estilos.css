@@ -1,0 +1,318 @@
+/* BODY */
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* CONTENIDO PRINCIPAL (MAIN) */
+
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    flex: 1;
+}
+
+main p {
+    color: rgb(0, 0, 25);
+}
+
+main cite, blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main li {
+    color: rgba(0, 0, 25, 0.5);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+main dt time {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+main p a {
+    color: rgb(240, 93, 80);
+    text-decoration: none;
+}
+
+main p a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+main h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+header h1 a {
+    color: rgb(240, 93, 80);
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: rgba(240,93,80,0.5);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(0, 0, 25);
+    padding: 3em 0;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: rgb(240, 93, 80);
+}
+
+/* MENÚ PRINCIPAL */
+
+#menu-principal ul {
+    list-style: none;
+}
+
+#menu-principal a {
+    color: rgb(0, 0, 25);
+    text-decoration: none;
+}
+
+#menu-principal a:hover {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+#menu-principal strong {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* LISTA PREMIOS */
+
+h2#premios-header + p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+h2#premios-header + p + p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-bottom: 50px;
+}
+
+ol + p {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    font-size: 15px;
+}
+
+.lista-premios {
+    list-style-type: none;
+    margin-left: 36%;
+}
+
+.lista-premios > li {
+    background: url("../img/idioma.png") no-repeat;
+    padding: 0 0 5px 37px;
+}
+
+.lista-premios ul {
+    list-style-type: square;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-premios ul > li::marker {
+    color: black;
+}
+
+.lista-premios ul > li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.lista-premios a {
+    text-decoration: none;
+    color: rgb(240, 93, 80);
+    margin-left: 3px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.lista-premios a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+/* MOTIVACIÓN PREMIOS (LISTA DE DESCRIPCIÓN) */
+
+h2#motivacion-header + p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+dl + p {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    font-size: 15px;
+}
+
+.lista-motivacion {
+    margin-left: 25%;
+}
+
+.lista-motivacion time {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lista-motivacion dt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-motivacion dd {
+   display: inline-block;
+   max-width: 800px;
+   margin-left: 8px;
+   vertical-align: top;
+}
+
+.lista-motivacion dt:nth-of-type(even) {
+    margin-left: 32px;
+    display: inline;
+}
+
+.lista-motivacion a {
+    text-decoration: none;
+    color: rgb(240, 93, 80);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.lista-motivacion a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+/* PÁGINA PRINCIPAL */
+
+.main-bob-dylan {
+    max-width: 1000px;
+    margin-left: 25%;
+}
+
+.main-bob-dylan section p {
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.main-bob-dylan section#parte4 + p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main-bob-dylan blockquote p {
+    font-size: 18px;
+}
+
+.imagen {
+    margin-left: 0px;
+}
+
+.imagen img {
+    max-width: 1000px;
+}
+
+.imagen figcaption {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.imagen figcaption a {
+    text-decoration: none;
+    color: rgb(240, 93, 80);
+}
+
+.imagen figcaption a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+.main-bob-dylan h2 + p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 0 8em 1em;
+}
+
+.main-bob-dylan h2 + p + p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.main-bob-dylan h2 + p + p time {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 500px;
+}
+
+.main-bob-dylan h2 + p + p + figure + p {
+    font-size: 19px;
+    line-height: 35px;
+    padding: 0 15em 0 0;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.main-bob-dylan h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.video {
+    margin-top: 35px;
+}
+
+.video iframe {
+    width: 600px;
+    height: 350px;
+    padding: 0 8em;
+    border: none;
+}
+
+.video figcaption {
+    padding: 0 36%;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+

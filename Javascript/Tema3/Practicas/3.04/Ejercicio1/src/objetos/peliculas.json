@@ -1,0 +1,148 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "El sexto sentido",
+      "director": "M. Night Shyamalan",
+      "clasificacion": "Drama",
+      "recaudacion": "$245 millones",
+      "cartelera": "https://www.ecartelera.com/carteles/5400/5409/001.jpg",
+      "nota": 8,
+      "actores": [
+        {
+          "nombre": "Bruce Willis",
+          "fechaNacimiento": "19/03/1955",
+          "biografia": "Bruce Willis es un actor, productor y cantante estadounidense...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruce_Willis_by_Gage_Skidmore_3.jpg/330px-Bruce_Willis_by_Gage_Skidmore_3.jpg"
+        },
+        {
+          "nombre": "Haley Joel Osment",
+          "fechaNacimiento": "10/04/1988",
+          "biografia": "Haley Joel Osment es un actor y productor estadounidense...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Haley_Joel_Osment_TIFF_2014.jpg/330px-Haley_Joel_Osment_TIFF_2014.jpg"
+        },
+        {
+          "nombre": "Toni Collette",
+          "fechaNacimiento": "01/11/1972",
+          "biografia": "Toni Collette es una actriz australiana...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Toni_Collette_%286902407861%29_%28cropped%29.jpg/330px-Toni_Collette_%286902407861%29_%28cropped%29.jpg"
+        },
+        {
+          "nombre": "Olivia Williams",
+          "fechaNacimiento": "26/07/1968",
+          "biografia": "Olivia Williams es una actriz británica...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Olivia_Williams_July_9%2C_2014_%28cropped%29.jpg/330px-Olivia_Williams_July_9%2C_2014_%28cropped%29.jpg"
+        }
+      ],
+      "resumen": "El Dr. Malcom Crowe es un conocido psicólogo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar..."
+    },
+    {
+      "id": 2,
+      "nombre": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "clasificacion": "Acción",
+      "recaudacion": "$2.2 mil millones",
+      "cartelera": "https://www.ecartelera.com/carteles/200/286/001.jpg",
+      "nota": 9,
+      "actores": [
+        {
+          "nombre": "John Travolta",
+          "fechaNacimiento": "18/02/1954",
+          "biografia": "John Travolta es un actor, bailarín y cantante estadounidense...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/John_Travolta%2C_2014_%28cropped%29.jpg/220px-John_Travolta%2C_2014_%28cropped%29.jpg"
+        },
+        {
+          "nombre": "Uma Thurman",
+          "fechaNacimiento": "29/04/1970",
+          "biografia": "Uma Thurman es una actriz y modelo estadounidense...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/File-Uma_Thurman_at_the_Tribeca_Film_Festival_4.jpg/220px-File-Uma_Thurman_at_the_Tribeca_Film_Festival_4.jpg"
+        },
+        {
+          "nombre": "Samuel L. Jackson",
+          "fechaNacimiento": "21/12/1948",
+          "biografia": "Samuel L. Jackson es un actor y productor estadounidense...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/220px-SamuelLJackson.jpg"
+        },
+        {
+          "nombre": "Bruce Willis",
+          "fechaNacimiento": "19/03/1955",
+          "biografia": "Bruce Willis es un actor, productor y cantante estadounidense...",
+          "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruce_Willis_by_Gage_Skidmore_3.jpg/330px-Bruce_Willis_by_Gage_Skidmore_3.jpg"
+        }
+      ],
+      "resumen": "Narrada de una forma no lineal, la historia principal cuenta la historia de Vincent Vega (John Travolta) y Jules Winnfield (Samuel L. Jackson), son dos asesinos a sueldo que tienen como misión recuperar un misterioso maletín..."
+    },
+    {
+      "id": 3,
+      "nombre": "300",
+      "director": "Zack Snyder",
+      "clasificacion": "Acción",
+      "recaudacion": "$213 millones",
+      "cartelera": "https://www.ecartelera.com/carteles/1300/1370/001.jpg",
+      "nota": 7,
+      "actores": [
+        {
+          "nombre": "Gerard Butler",
+          "fechaNacimiento": "13/11/1969",
+          "biografia": "Gerard Butler es un actor y productor escocés...",
+          "imagen": "https://m.media-amazon.com/images/M/MV5BMjE4NDMwMzc4Ml5BMl5BanBnXkFtZTcwMDg4Nzg4Mg@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+          "nombre": "Lena Headey",
+          "fechaNacimiento": "03/10/1973",
+          "biografia": "Lena Headey es una actriz británica...",
+          "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1973/10/w1280/5SL4Y4alOYF9EahObfsb6GaDHg4.jpg"
+        },
+        {
+          "nombre": "David Wenham",
+          "fechaNacimiento": "21/09/1965",
+          "biografia": "David Wenham es un actor australiano...",
+          "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1965/9/w1280/F7CWSqUE75HtrcdqIQ7UMZ9aTX.jpg"
+        },
+        {
+          "nombre": "Dominic West",
+          "fechaNacimiento": "15/10/1969",
+          "biografia": "Dominic West es un actor británico...",
+          "imagen": "https://ntvb.tmsimg.com/assets/assets/87263_v9_bc.jpg?w=360&h=480"
+        }
+      ],
+      "resumen": "Basada en la épica novela gráfica de Frank Miller, 300 narra la Batalla de las Termópilas, donde el rey Leónidas (Gerard Butler) y 300 espartanos luchan contra el ejército persa..."
+    },
+    {
+      "id": 4,
+      "nombre": "El silencio de los corderos",
+      "director": "Jonathan Demme",
+      "clasificacion": "Drama",
+      "recaudacion": "$678 millones",
+      "cartelera": "https://www.ecartelera.com/carteles/2500/2508/001.jpg",
+      "nota": 8,
+      "actores": [
+        {
+          "nombre": "Jodie Foster",
+          "fechaNacimiento": "19/11/1962",
+          "biografia": "Jodie Foster es una actriz y directora estadounidense...",
+          "imagen": "https://images.mubicdn.net/images/cast_member/3250/cache-1051-1691955763/image-w856.jpg"
+        },
+        {
+          "nombre": "Anthony Hopkins",
+          "fechaNacimiento": "31/12/1937",
+          "biografia": "Anthony Hopkins es un actor británico...",
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGoeLX_Hr4sjKT2wGRhFrNCv2fscqVoUF7-g&s"
+        },
+        {
+          "nombre": "Scott Glenn",
+          "fechaNacimiento": "26/01/1941",
+          "biografia": "Scott Glenn es un actor estadounidense...",
+          "imagen": "https://image.tmdb.org/t/p/w500/keBKcMPojtRTi5ImLXOoKDmDbqU.jpg"
+        },
+        {
+          "nombre": "Ted Levine",
+          "fechaNacimiento": "29/05/1957",
+          "biografia": "Ted Levine es un actor estadounidense...",
+          "imagen": "https://pics.filmaffinity.com/198122085102428-nm_200.jpg"
+        }
+      ],
+      "resumen": "Una joven agente del FBI debe confiar en un manipulador y brillante asesino encarcelado para atrapar a otro asesino..."
+    }
+  ]
+}
