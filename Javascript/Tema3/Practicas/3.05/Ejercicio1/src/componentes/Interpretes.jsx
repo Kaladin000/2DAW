@@ -1,3 +1,5 @@
+"use strict";
+
 import { generarUuidAleatorio } from "/Users/Kaladin/Downloads/2DAW/2DAW/Javascript/Tema3/Practicas/3.04/Ejercicio1/src/bibliotecas/funciones.js";
 import Interprete from "./Interprete";
 

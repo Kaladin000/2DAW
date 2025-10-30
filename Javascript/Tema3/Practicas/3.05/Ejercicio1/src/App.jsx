@@ -1,3 +1,6 @@
+"use strict";
+
+import { useRef } from 'react';
 import datosPeliculas from './objetos/peliculas.json'
 import Peliculas from './componentes/Peliculas.jsx'
 

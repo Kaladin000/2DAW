@@ -1,3 +1,5 @@
+"use strict";
+
 // Recibe el array del actor con su información por el prop datos
 // finalmente le doy forma al html con ésta información
 

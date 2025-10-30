@@ -1,3 +1,5 @@
+"use strict";
+
 import Pelicula from "./Pelicula";
 
 // mediante props recibe el array con la información en JSON de las películas
@@ -14,6 +16,7 @@ const Peliculas = ({ arrayPeliculas }) => {
           director={pelicula.director}
           cartelera={pelicula.cartelera}
           actores={pelicula.actores}
+          taquilla={pelicula.recaudacion}
         >
           {pelicula.resumen}
         </Pelicula>
