@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Ejercicio1</title>
+</head>
+
+<body>
+    <div>
+        <h2>Colores</h2>
+        <table>
+            <tr id="primerTr">
+                <td id="blanco"></td>
+                <td id="negro"></td>
+                <td id="rojo"></td>
+                <td id="amarillo"></td>
+                <td id="verde"></td>
+                <td id="azul"></td>
+            </tr>
+            <tr id="segundoTr">
+                <td colspan="6" id="colorSeleccionado">color seleccionado</td>
+            </tr>
+        </table>
+    </div>
+    <div id="zonaDibujo">
+        <div id="divTabla">
+            <!-- Aquí genero la tabla para pintar -->
+        </div>
+        <button id="borrar">Borrar</button>
+    </div>
+    <script src="./src/Main.js" type="module"></script>
+</body>
+
+</html>
