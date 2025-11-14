@@ -1,0 +1,26 @@
+.estilo1 {
+    font-family: "Courier New", monospace;
+    color: darkblue;
+    background-color: #e0f7fa;
+}
+
+.estilo2 {
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+    background-color: #f0fff0;
+    font-weight: bold;
+}
+
+.estilo3 {
+    font-family: Georgia, serif;
+    color: darkred;
+    background-color: #fff0f0;
+    font-style: italic;
+}
+
+.error {
+    font-family: sans-serif, serif;
+    color: red;
+    background-color: #fff0f0;
+    font-style: italic;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Ejercicio1</title>
+</head>
+
+<body>
+    <form name="formGenerarFormulario" id="formGenerarFormulario">
+    
+        <label for="input">Input:</label><br>
+        <select id="input" name="input" required>
+            <option value="">No seleccionado</option>
+            <option value="texto">Texto</option>
+            <option value="password">Contraseña</option>
+            <option value="textArea">TextArea</option>
+            <option value="label">Label</option>
+            <option value="imagen">Imagen</option>
+            <option value="checkbox">Checkbox</option>
+            <option value="radio">Radio</option>
+            <option value="botonSubmit">Botón (submit)</option>
+        </select><br><br>
+
+        <div id="camposGenerados">
+            
+        </div>
+    
+        <button id="addElemento">Añadir elemento</button>  
+    </form><br><br>
+
+    <form id="formularioGenerado">
+        
+    </form>
+
+    <script id="DOM" src="./src/Main.js" type="module"></script>
+</body>
+
+</html>

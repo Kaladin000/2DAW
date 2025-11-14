@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Ejercicio3</title>
+</head>
+
+<body>
+    <form id="formDiscos">
+    
+        <label for="nombreDisco">Nombre del disco:</label><br>
+        <input type="text" id="nombreDisco" name="nombreDisco"><br><br>
+    
+        <label for="grupo">Grupo o Intérprete:</label><br>
+        <input type="text" id="grupo" name="grupo"><br><br>
+    
+        <label for="year">Año de publicación:</label><br>
+        <input type="number" id="year" name="year"><br><br>
+    
+        <label for="tipoMusica">Tipo de música:</label><br>
+        <select id="tipoMusica" name="tipoMusica">
+            <option value="rock">Rock</option>
+            <option value="progressive">Progressive</option>
+            <option value="punk">Punk</option>
+            <option value="trash">Trash</option>
+        </select><br><br>
+    
+        <label for="localizacion">Localización:</label><br>
+        <input type="text" id="localizacion" name="localizacion" placeholder="A3"><br><br>
+    
+        <label for="prestado">Prestado:</label>
+        <input type="checkbox" id="prestado" name="prestado"><br><br>
+    
+        <button id="guardar">Guardar</button><br><br>
+        <button id="mostrar">Mostrar</button>
+    
+    </form>
+    <script id="DOM" src="./src/Main.js" type="module"></script>
+</body>
+
+</html>
