@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* INDEX */
+
+#indexBody {
+    background-image:url(../img/home-hero.jpg);
+    background-size: cover;
+}
+
+#indexNav {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#indexNav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#indexNav ul li {
+    margin-right: 28px;
+}
+
+#indexNav ul li a {
+    font-size: 1.25rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6BDEC8;
+}
+
+#indexNav {
+    margin-bottom: 8em;
+}
+
+#indexMain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#index-isologo-taller {
+    margin-bottom: -100px;
+}
+
+
+#indexH1 {
+    letter-spacing: -10px;
+    color: #FFFFFF;
+    font-size: 8.75rem;
+}
+
+#indexH2 {
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    margin-top: -100px;
+}
+
+#indexFooter ul {
+    margin-top: 12.6em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#indexFooter ul li {
+    margin-right: 22px;
+}
+
+#indexFooter ul li a {
+    font-size: 1.125rem;
+}
+
+#indexFooter {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#indexFooter #indexPrimerSmall {
+    margin-top: 3.2em;
+}
+
+/* ESTILO GENERAL HEADER Y FOOTER */
+
+#mainBody {
+    height: 100%;
+    margin: 0;
+}
+
+#mainHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 25);
+    height: 17vh;
+    text-align: center;
+}
+
+#isologo-taller {
+    width: 30px;
+    height: 30px;
+}
+
+#mainHeader div {
+    display: flex;
+    align-items: center;
+    margin-top: -1em;
+    gap: 0.6em;
+}
+
+#mainHeader ul {
+    margin-top: -1em;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1em;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+#mainHeader ul {
+    margin-top: -1em;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1em;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+#mainHeader p {
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+#mainFooter {
+    background-color: rgb(0, 0, 25);
+    height: 12vh;
+    padding: 0.6em 26.5em;
+}
+
+#mainFooter ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1.2em;
+}
+
+#mainFooter div {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainFooter small {
+    color: #FFFFFF;
+    margin-left: 2.9em;
+}
+
+#navActual {
+    text-decoration: underline;
+    text-underline-offset: 1em;
+}
+
+#mainMain figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mainMain figcaption {
+    display: flex;
+    margin-top: 0.5em;
+    margin-right: 31em;
+    font-size: 0.8125rem;
+}
+
+#mainMain a {
+    color: #942C0B;
+    border-bottom: 1px dotted #942C0B;
+}
+
+#mainMain a:hover {
+    border-bottom: 1px solid #942C0B;
+}
+
+/* CERÁMICA */
+
+#mainMain article {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 29em;
+}
+
+#mainMain article p {
+    font-size: 1rem;
+}
+
+#mainMain article h1 {
+    margin-top: 0em;
+    text-align: center;
+}
+
+#mainMain section {
+    margin-top: -1em;
+}
+
+#mainMain article h2 {
+    border-bottom: 1px solid black;
+    padding: 0 0 0.2em;
+}
+
+iframe {
+    display: flex;
+    width: 47em;
+    height: 26em;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMain article li {
+    list-style-type: square;
+    margin-bottom: 1em;
+}
+
+#mainMain article li:last-child {
+    list-style-type: square;
+    margin-bottom: 0em;
+}
+
+#mainMain dl {
+    margin-left: 3em;
+}
+
+#mainMain dt {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+#mainMain dd {
+    margin-bottom: 1.3em;
+}
+
+/* CURSOS */
+
+#mainMain #contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 29em;
+}
+
+#contenedor h1 {
+    margin-top: 0em;
+    text-align: center;
+}
+
+#contenedor h1 + p {
+    margin-top: -0.4em;
+    font-weight: 700;
+    font-size: 3.375rem;
+    text-align: center;
+    margin-bottom: 0em; /* Aquí reinicio su margin bottom */
+    margin-bottom: 0.7em;
+}
+
+#contenedor img {
+    width: 50em;
+    height: 33em;
+}
+
+#mainMain #contenedor figcaption {
+    margin-right: 42.8em;
+}
+
+#contenedor #contenedorAnidado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -0.6em;
+    padding: 0 5.3em;
+}
+
+#contenedor figure + p {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* CURSOS TABLA */
+
+#contenedor table {
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+#contenedor caption {
+    border-top: 1px solid black;
+    font-size: 1.125rem;
+    padding: 0.15em 0em;
+}
+
+#contenedor thead {
+    border-bottom: 1px solid black;
+}
+
+#contenedor th {
+    font-weight: 400;
+    padding: 0.4em 0em;
+    font-size: 0.875rem;
+}
+
+#contenedor thead th:first-child {
+    padding: 0.4em 0.5em;
+}
+
+#contenedor tbody td:first-child {
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding: 0.35em 0.5em;
+}
+
+#contenedor tfoot td {
+    padding: 0.4em 0.5em;
+}
+
+#contenedor tbody tr:nth-of-type(odd) {
+    background-color:  #6BDEC8;
+}
+
+/* FORMULARIO */
+
+#mainMain form {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 29em;
+}
+
+#mainMain form h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#mainMain form li {
+    list-style-type: none;
+}
+
+#mainMain form small {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#mainMain form > fieldset {
+    margin-bottom: 1.5em;
+}
+
+fieldset {
+    border: 1px solid black;
+}
+
+legend {
+    font-weight: 700;
+    font-size: 1.1875rem;
+}
+
+#mainMain form ul {
+    margin-left: -2em;
+}
+
+#mainMain form ul li {
+    margin-bottom: 1em;
+}
+
+#proteccionDatos {
+    margin-top: 0em;
+    line-height: 1.5em;
+}
+
+span {
+    margin-bottom: 1.3em;
+}
+
+#inscribirseBoton {
+    border: none;
+    width: 8.7em;
+    height: 3em;
+    background-color: #942C0B;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+#fieldSet1 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fieldSet1 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.5em;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+#fieldSet1 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#fieldSet1 ul div {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+#fieldSet1 input {
+    width: 30em;
+    height: 2.7em;
+    border: 1px solid black;
+}
+
+#fieldSet1 select {
+    width: 30.5em;
+    height: 3em;
+    border: 1px solid black;
+    padding-left: 1em;
+    text-align: left;
+    color: black;
+    width: 30.6em;
+}
+
+#fieldSet1 input[type="date"] {
+    text-align: left;
+    width: 28.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#fieldSet1 label {
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+#fieldSet2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#fieldSet2 fieldset {
+    margin-top: 3em;
+    margin-left: 1.9em;
+    margin-right: 2.5em;
+}
+
+#fieldSet2 fieldset + label {
+    margin-left: 1.9em;
+}
+
+#fieldSet2 textarea {
+    border: 1px solid black;
+    margin-left: 2.1em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    padding: 2em 2em 2em 2em;
+    height: 14em;
+}
