@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resultados del equipo de atletas</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Gestión de resultados de atletas</h1>
+
+      <section class="controls">
+        <h2>Filtrar por deporte</h2>
+        <form id="formFiltroDeporte" class="filter-form">
+          <label for="selectDeporte">Deporte:</label>
+          <select id="selectDeporte" name="deporte">
+            <option value="todos">Todos</option>
+            <option value="Carrera">Carrera</option>
+            <option value="Natación">Natación</option>
+          </select>
+        </form>
+      </section>
+
+      <section class="table-section">
+        <table id="tablaAtletas" class="tabla-atletas">
+          <thead>
+            <tr>
+              <th class="left">Nombre</th>
+              <th class="left">Deporte</th>
+              <th class="right">Marca (m)</th>
+              <th class="right">Tiempo (s)</th>
+              <th class="right">Velocidad media (m/s)</th>
+            </tr>
+          </thead>
+
+          <tbody id="tbodyAtletas">
+            <!-- Filas generadas dinámicamente -->
+          </tbody>
+
+          <tfoot>
+            <tr id="filaTiempoMedio">
+              <td colspan="3" class="label-tm">Tiempo medio global (s)</td>
+              <td id="tiempoMedioGlobal" class="right">0.00</td>
+              <td colspan="2"></td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+
+    <!-- JS principal como módulo -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

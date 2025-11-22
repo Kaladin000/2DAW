@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        * {
+            font-family: sans-serif;
+        }  
+        
+        html {
+            background-color: #E8E8E8;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            width: 52vw;
+            height: 90vh;
+            border-radius: 1%;
+            border: 0.5em solid rgb(48, 48, 48);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(48, 48, 48);
+            margin-top: 1em;
+        }
+
+        table {
+            text-align: center;
+            width: 47vw;
+            border-collapse: collapse;
+        }
+
+        caption {
+            margin-bottom: 1em;
+        }
+
+        tr {
+            height: 3em;
+        }
+
+        thead tr {
+            background-color: rgb(48, 48, 48);
+            color: white;
+            font-size: 110%;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: rgb(218, 218, 218);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Menú</h1>
+            <table>
+                <caption>Opciones disponibles</caption>
+                <thead>
+                    <tr>
+                        <th>Bebidas</th>
+                        <th>Pasteles</th>
+                        <th>Café</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chai Latte</td>
+                        <td>Tarta de Zanahoria</td>
+                        <td>Café Irlandés</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Smoothie de frutas</td>
+                        <td>Magdalenas</td>
+                        <td>Café Mocha</td>
+                    </tr>
+
+                    <tr>
+                        <td>Refrescos</td>
+                        <td>Donuts</td>
+                        <td>Café con Leche</td>
+                    </tr>
+
+                    <tr>
+                        <td>Matcha Latte</td>
+                        <td>Brownies</td>
+                        <td>Café Vienés</td>
+                    </tr>
+
+                    <tr>
+                        <td>Limonada casera</td>
+                        <td>Cookies</td>
+                        <td>Cappuccino</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>Croissants</td>
+                        <td>Café Americano</td>
+                    </tr>
+
+                    <tr>
+                        <td>Té Verde</td>
+                        <td>Tarta de Manzana</td>
+                        <td>Espresso</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="3">¡Disfruta de tu experiencia en nuestra cafetería!</td></tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
