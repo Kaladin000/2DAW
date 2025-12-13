@@ -1,0 +1,59 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+ul ul {
+  background-image: url(https://www.clker.com/cliparts/W/N/1/d/q/z/sqaure-green.svg);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 0px 12px;
+}
+
+li {
+  list-style: none;
+  background-image: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  margin-left: 120px;
+  width: 500px;
+  text-align: justify;
+}
+
+ol {
+  margin-left: 120px;
+}
+
+ol li {
+  list-style-type: disc;
+}
+
+#persona {
+  margin-top: 447px;
+  margin-left: -290px;
+}
