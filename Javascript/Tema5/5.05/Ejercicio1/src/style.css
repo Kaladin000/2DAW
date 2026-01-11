@@ -1,0 +1,79 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: 2.5vh;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+ul ul {
+  background-image: url(https://pngimg.com/uploads/pokeball/pokeball_PNG29.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none;
+  background-image: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-left: 120px;
+  width: 500px;
+  text-align: justify;
+}
+
+ol {
+  margin-left: 120px;
+}
+
+ol li {
+  list-style-type: disc;
+}
+
+#pokemons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: row;
+}
+
+#region {
+  margin-top: 260px;
+}
+
+#boton button {
+  margin-left: 50px;
+}
+
+img {
+  width: 250px;
+  margin-left: 75px;
+}
