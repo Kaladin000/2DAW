@@ -1,0 +1,98 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+ul ul {
+  background-image: url(https://www.clker.com/cliparts/W/N/1/d/q/z/sqaure-green.svg);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 0px 12px;
+}
+
+li {
+  list-style: none;
+  background-image: none;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#add {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#lista {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#buscarCampos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#buscar button:nth-of-type(2) {
+  margin-bottom: 35px;
+}
+
+.botonBorrar {
+  margin-bottom: 500px;
+}
+
+#editar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#contenedorLista {
+  margin-left: -118px;
+}
+
+p {
+  margin-left: 120px;
+  width: 500px;
+  text-align: justify;
+}
+
+ol {
+  margin-left: 120px;
+}
+
+ol li {
+  list-style-type: disc;
+}
