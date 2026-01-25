@@ -10,7 +10,7 @@ import { writeBatch, doc, getDocs } from "https://www.gstatic.com/firebasejs/11.
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDMBEaNzALdGwNruFXE0uksHaxTzqEhbvw",
+  apiKey: "",
   authDomain: "ejercicio-6-2.firebaseapp.com",
   projectId: "ejercicio-6-2",
   storageBucket: "ejercicio-6-2.firebasestorage.app",
