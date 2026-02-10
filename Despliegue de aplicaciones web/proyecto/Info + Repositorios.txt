@@ -1,0 +1,5 @@
+He dejado los repositorios en público. El de frontend está dispuesto para que funcione en Render.
+
+https://github.com/Kaladin000/frontend
+https://github.com/Kaladin000/backend
+https://github.com/Kaladin000/mantenimiento
